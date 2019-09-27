@@ -7,6 +7,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 from pyquery import PyQuery as pq
 from config import *
 from urllib.parse import quote
+import os
 
 # browser = webdriver.Chrome()
 # browser = webdriver.PhantomJS(service_args=SERVICE_ARGS)
