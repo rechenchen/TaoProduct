@@ -44,7 +44,7 @@ def index_page(page):
         get_products()
     except TimeoutException:
         index_page(page)
-
+#chenlei add commit 2.
 
 def get_products():
     """
