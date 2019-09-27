@@ -24,6 +24,7 @@ def index_page(page):
     """
     抓取索引页
     :param page: 页码
+    chenlei add comment;
     """
     print('正在爬取第', page, '页')
     try:
